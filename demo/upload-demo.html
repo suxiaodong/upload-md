@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upload-Demo</title>
+        <link href="../upload-md.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="col-lg-12">
+            <div id="imgUpload"></div>
+        </div>
+
+        <script src="../lib/jquery/jquery.js"></script>
+        <script src="../lib/bootstrap/bootstrap.min.js"></script>
+        <script src="../upload-md.js"></script>
+        <script>
+            var uploadImg=uploadMd.defineImgUpload({
+                container:'#imgUpload', //插件所需容器
+                url:'upload_file.json', //文件上传地址
+                max:10, //允许选择的最大上传图片数
+                parameter:{test:'1223',pcs:'sss'}, //图片上传额外参数
+                previewImg:['./demo.jpg'], //传入预览的图片，适用编辑时展示曾经上传的图片
+                fileInputName:'file1' //图片文件表单项名称
+            });
+        </script>
+    </body>
+</html>
