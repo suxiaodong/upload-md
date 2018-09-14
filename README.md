@@ -49,3 +49,5 @@ uploadImg.reset(['image path']);
 
 ![image](https://github.com/suxiaodong/upload-md/blob/master/readme2.jpg)
 
+![image](https://github.com/suxiaodong/upload-md/blob/master/readme3.jpg)
+
