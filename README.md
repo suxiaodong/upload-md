@@ -12,4 +12,7 @@
 
 4、支持最大允许选择图片
 
+效果如下：
+
+![image](https://github.com/suxiaodong/upload-md/blob/master/readme1.jpg)
 
